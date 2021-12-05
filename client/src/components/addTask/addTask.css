@@ -1,0 +1,26 @@
+.addTask{
+    margin-top: 30px;
+    text-align: center;
+}
+.addTask input{
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    margin-right: 25px;
+    font-size: 20px;
+    color: brown;
+}
+
+.addTask input::placeholder{
+    color: black;
+    opacity: 50%;
+}
+
+.addTask button{
+    width: 100px;
+    font-size: 20px;
+    color: brown;
+    background-color: yellow;
+    border-radius: 20px;
+}
